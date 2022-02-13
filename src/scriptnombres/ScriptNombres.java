@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  *
- * @author Capddo <rafael.capdoo@boccer.com>
+ * @author Capddo <rafael.nontol@unmsm.edu.pe>
  */
 public class ScriptNombres {
 
@@ -15,9 +15,9 @@ public class ScriptNombres {
                 AbridorDeTxt obj = new AbridorDeTxt();
                 
                  List<Paciente> mi_lista = new ArrayList<>();
-                 obj.leer_datos();
                  
-                mi_lista = obj.listaGeneral;
+                 obj.leer_datos();
+                 mi_lista = obj.listaGeneral;
                 
                 for (Paciente e : mi_lista) {
                                 obj.insertar_paciente(e);

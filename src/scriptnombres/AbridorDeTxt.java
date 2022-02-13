@@ -42,22 +42,22 @@ public class AbridorDeTxt {
                         /*PARA NOMBRE*/
                         //creo objeto fr y abro para lectura
                         fr = new FileReader(nombres);
-                        //creo objeto br para leer datos
+                        //creo objeto br para leer un buffer
                         br = new BufferedReader(fr);
                         //leer primer registro
                         datos = br.readLine();
 
                         
                         paciente = null;
-                        String nombre11;
+                        String nombre;
                         
                         while(datos != null){
                             paciente = new Paciente();
                             StringTokenizer token = new StringTokenizer(datos,",");
 
-                             nombre11 = token.nextToken();
+                             nombre = token.nextToken();
 
-                            mandarPacienteNombre(nombre11);
+                            mandarPacienteNombre(nombre);
                             
                             datos = br.readLine();
                         }
