@@ -47,7 +47,19 @@ public static final String routeNames = "Nombres.txt";
 public static final String routeLastNames = "Apellidos.txt";
 public static final String routeResults = "Resultados.txt";
 ```
+## Imágenes
 
+* Nombres.
+
+![plot](./src/resources/names.png)
+
+* Apellidos.
+
+![plot](./src/resources/lastnames.png)
+
+* Resultado.
+
+![plot](./src/resources/results.png)
 
 ## Authors
 
