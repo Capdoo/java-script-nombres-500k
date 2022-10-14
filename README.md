@@ -15,6 +15,16 @@ complementados con campos adicionales como DNI o fecha de nacimiento.
 
 ## Flujo
 
+### Referencias a archivos necesarios
+
+* Indicar la ruta de los archivos a usar.
+
+```
+public static final String routeNames = "Nombres.txt";
+public static final String routeLastNames = "Apellidos.txt";
+public static final String routeResults = "Resultados.txt";
+```
+
 ### Clase GeneralList
 
 * Instanciar la clase que obtendrá la lista de las combinaciones.
@@ -24,7 +34,7 @@ GeneralList generalList = new GeneralList(routeNames, routeLastNames);
 
 ### Indicar número de grupos
 
-* Grupos
+* Leer nombres y apellidos e indicar el número de grupos
 ```
 List<Paciente> completeList = generalList.readData(3);
 ```
@@ -41,12 +51,9 @@ OpenerTxt obj = new OpenerTxt(routeResults);
 Iniciar el proyecto a través de cualquier IDE.
 
 * Verificar las rutas para cada archivo de texto.
+* Considerar el tiempo según la cantidad de grupos.
 
-```
-public static final String routeNames = "Nombres.txt";
-public static final String routeLastNames = "Apellidos.txt";
-public static final String routeResults = "Resultados.txt";
-```
+
 ## Imágenes
 
 * Nombres.
