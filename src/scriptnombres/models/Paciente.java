@@ -1,7 +1,6 @@
 package scriptnombres.models;
 
 /**
- *
  * @author Capddo <rafael.nontol@unmsm.edu.pe>
  */
 
@@ -17,9 +16,9 @@ public class Paciente {
     private int idHospital;
     private int idCategoria;
     private int estado_vacunacion;
-    
+
     public Paciente() {
-    
+
     }
 
     public int getIdHospital() {
